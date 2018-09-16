@@ -2,102 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f40f01-9978-4e2c-9505-42116322896d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/sticky-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/alert.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/button.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/carousel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/collapse.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/dropdown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/modal.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/popover.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/scrollspy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/tab.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/tooltip.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/dist/util.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/src/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/karma-bundle.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/unit/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/collapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/popover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/scrollspy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/tests/visual/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/caesar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caesar-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caesar-algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/flask" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/flask" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Flask-1.0.2.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/blueprints.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/blueprints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/ctx.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/ctx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/debughelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/debughelpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/globals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/json/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/json/tag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/sessions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/templating.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/templating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/sticky-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sticky-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/alert.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/carousel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/collapse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/modal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/popover.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/scrollspy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/tab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/tooltip.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/dist/util.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/scrollspy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/src/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/src/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/karma-bundle.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/unit/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/tests/visual/tooltip.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,15 +87,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/caesar_algorithm$caesar_algorithm.coverage" NAME="caesar-algorithm Coverage Results" MODIFIED="1537006222579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/caesar_algorithm$caesar_algorithm.coverage" NAME="caesar-algorithm Coverage Results" MODIFIED="1537127119329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,60 +106,22 @@
       <file leaf-file-name="routes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="caesar-algorithm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caesar-algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="66" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="66" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/css/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="53" column="66" lean-forward="true" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="58" column="16" selection-start-line="58" selection-end-line="59" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sticky-footer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/css/sticky-footer.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="tab.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/js/src/tab.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -193,6 +138,12 @@
     <findStrings>
       <find>Comp</find>
       <find>code</find>
+      <find>EncodeDecode</find>
+      <find>templa</find>
+      <find>bootstrap.min.css.map</find>
+      <find>tit</find>
+      <find>encode</find>
+      <find>inp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,9 +154,15 @@
       <list>
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/caesar-algorithm.py" />
-        <option value="$PROJECT_DIR$/app/routes.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/algopage/index.html" />
+        <option value="$PROJECT_DIR$/static/js/jquery-3.3.1.min.js" />
+        <option value="$PROJECT_DIR$/templates/mybase.html" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/app/caesar.py" />
+        <option value="$PROJECT_DIR$/app/routes.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -220,9 +177,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1920" />
+    <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -251,12 +208,6 @@
               <item name="caesar-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="caesar-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="caesar-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -266,15 +217,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static/js/dist" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/templates/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,10 +275,18 @@
       <option name="presentableId" value="Default" />
       <updated>1537005275741</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1537014374030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537014374030</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -327,11 +294,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3297414" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24386339" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286638" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -342,8 +310,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286638" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -351,11 +341,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -363,6 +360,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -380,27 +380,6 @@
             <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caesar-algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -426,10 +405,143 @@
     <entry file="file://$PROJECT_DIR$/templates/css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/js/src/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caesar-algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/src/tab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="86728" selection-start-line="1" selection-start-column="86728" selection-end-line="1" selection-end-column="86728" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="193" column="4" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sticky-footer.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/dist/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9734">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/dist/bootstrap.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/dist/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="338" column="8" selection-start-line="338" selection-start-column="8" selection-end-line="338" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/caesar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="53" column="66" lean-forward="true" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+        <state relative-caret-position="255">
+          <caret line="58" column="16" selection-start-line="58" selection-end-line="59" />
         </state>
       </provider>
     </entry>
