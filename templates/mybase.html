@@ -6,7 +6,16 @@
         src="{{url_for('static', filename='js/dist/bootstrap.js')}}"></script>
 <script
         src="{{url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+
 {% endblock %}
 
 {% block content %}
+     <section class="jumbotron text-center">
+        <div class="container">
+          <p>
+            <a href="{{ first_page }}" class="{{ active }}">Caesar lab</a>
+            <a href="{{ second_page }}" class="{{ not_active }}">Second Lab</a>
+          </p>
+        </div>
+    </section>
 {% endblock %}

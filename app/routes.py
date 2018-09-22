@@ -7,7 +7,22 @@ from flask import render_template, request
 @app.route('/')
 @app.route('/index')
 def index_page():
-    return render_template('index.html', shift_encode=1, shift_decode=1)
+    return render_template('index.html', first_page="", second_page="/second_encode",
+                           shift_encode=1, shift_decode=1, active="btn btn-primary my-2", not_active="btn btn-secondary my-2")
+
+
+@app.route('/second_encode')
+def second_page_encode():
+    return render_template('secondLab.html', first_page="/index", second_page="",
+                           shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
+                           active="btn btn-secondary my-2")
+
+
+@app.route('/second_decode')
+def second_page_decode():
+    return render_template('secondLab_decode.html', first_page="/index", second_page="",
+                           shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
+                           active="btn btn-secondary my-2")
 
 
 @app.route('/', methods=['POST'])
