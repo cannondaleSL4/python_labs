@@ -25,5 +25,5 @@ def encode_decode(string, shift, boolean):
 
 def __get_index(number, shift, boolean):
     if boolean:
-        return (number + shift) % len(abc)
+        return (number + int(shift)) % len(abc)
     return number - (shift % len(abc)) % len(abc)

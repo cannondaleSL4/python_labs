@@ -20,14 +20,14 @@
                 </div>
                 <div class="col-6">
                     <label>Shift</label>
-                    <input type="number" class="form-control" pattern="[0-9]" min="1" name="shift_encode">
+                    <input type="number" class="form-control" pattern="[0-9]" min="1" value="{{ encode_shift }}" name="shift_encode">
                 </div>
               </div>
           </div>
           <div class="card-body">
             <div class="form-group">
                 <label for="encode_text">Text for encode:</label>
-                <textarea class="form-control" rows="5" name="encode_text"></textarea>
+                <textarea class="form-control" rows="5" name="encode_text">{{ encoded_text }}</textarea>
             </div>
             <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Encode">
           </div>
@@ -45,14 +45,14 @@
                 </div>
                 <div class="col-6">
                     <label>Shift</label>
-                    <input type="number" class="form-control" pattern= "[0-9]" min="1" name="shift_decode">
+                    <input type="number" class="form-control" pattern= "[0-9]" min="1" value="{{ decode_shift }}" name="shift_decode">
                 </div>
             </div>
           </div>
           <div class="card-body">
               <div class="form-group">
                 <label for="decode_text">Text for decode:</label>
-                <textarea class="form-control" rows="5" id="decode_text"></textarea>
+                <textarea class="form-control" rows="5" id="decode_text" >{{ decode_text }}</textarea>
               </div>
               <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Decode">
           </div>
@@ -62,9 +62,9 @@
       </div>
 
       <div class="form-group row">
-        <label for="staticResult" class="col-sm-2 col-form-label">Result: </label>
+        <label for="staticResult" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-10">
-          <input type="text" readonly class="form-control-plaintext" id="staticResult" value="">
+          <input type="text" readonly class="form-control-plaintext" id="staticResult" value="Result: {{ result }}">
         </div>
       </div>
 
