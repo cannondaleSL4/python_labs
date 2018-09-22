@@ -20,16 +20,16 @@
                 </div>
                 <div class="col-6">
                     <label>Shift</label>
-                    <input type="number" class="form-control" pattern="[0-9]" min="1" value="{{ encode_shift }}" name="shift_encode">
+                    <input type="number" class="form-control" pattern="[0-9]" min="1" value="{{ shift_encode }}" name="shift_encode">
                 </div>
               </div>
           </div>
           <div class="card-body">
             <div class="form-group">
                 <label for="encode_text">Text for encode:</label>
-                <textarea class="form-control" rows="5" name="encode_text">{{ encoded_text }}</textarea>
+                <textarea class="form-control" rows="5" name="text_encode">{{ text_encode }}</textarea>
             </div>
-            <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Encode">
+            <input type="submit" class="btn btn-lg btn-block btn-outline-primary" name="form" value="Encode">
           </div>
           </form>
         </div>
@@ -45,18 +45,31 @@
                 </div>
                 <div class="col-6">
                     <label>Shift</label>
-                    <input type="number" class="form-control" pattern= "[0-9]" min="1" value="{{ decode_shift }}" name="shift_decode">
+                    <input type="number" class="form-control" pattern= "[0-9]" min="1" value="{{ shift_decode }}" name="shift_decode">
                 </div>
             </div>
           </div>
           <div class="card-body">
               <div class="form-group">
                 <label for="decode_text">Text for decode:</label>
-                <textarea class="form-control" rows="5" id="decode_text" >{{ decode_text }}</textarea>
+                <textarea class="form-control" rows="5" name="text_decode" >{{ text_decode }}</textarea>
               </div>
-              <input type="submit" class="btn btn-lg btn-block btn-outline-primary" value="Decode">
+              <input type="submit" class="btn btn-lg btn-block btn-outline-primary" name="form" value="Decode">
           </div>
           </form>
+        </div>
+
+
+        <div class="card mb-4 shadow-sm">
+        <form method="POST">
+        <div class="card-body">
+            <div class="form-group">
+              <label for="decode_text">Text for hacking:</label>
+              <textarea class="form-control" rows="9" name="text_decode" >{{ text_decode }}</textarea>
+            </div>
+            <input type="submit" class="btn btn-lg btn-block btn-outline-primary" name="form" value="Hack">
+        </div>
+        </form>
         </div>
 
       </div>

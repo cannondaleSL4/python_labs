@@ -1,27 +1,45 @@
 from app import app
 from .caesar import *
 from flask import render_template, request
-from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 
 
 
 @app.route('/')
 @app.route('/index')
 def index_page():
-    encode_shift = 1
-    decode_shift = 1
-    return render_template('index.html', encode_shift=encode_shift, decode_shift=decode_shift)
+    return render_template('index.html', shift_encode=1, shift_decode=1)
 
 
 @app.route('/', methods=['POST'])
 @app.route('/index', methods=['POST'])
 def index_post():
-    shift_encode = request.form['shift_encode']
-    encode_text = request.form['encode_text']
+    if request.form['form'] == 'Encode':
+        shift_encode = request.form['shift_encode']
+        text_encode = request.form['text_encode']
 
-    if not shift_encode or not encode_text:
-        result = "you should set text for encode also is shift letters in ABC"
-        return render_template("index.html", result=result)
-    text_encoded = encode_decode(encode_text, shift_encode, True)
-    result = "has been executed operation encode with shift {}".format(shift_encode)
-    return render_template("index.html", result=result, decode_text=text_encoded, decode_shift=shift_encode)
+        if not shift_encode or not text_encode:
+            result = "you should set text for encode also is shift letters in ABC"
+            return render_template("index.html", result=result)
+        text_encoded = encode_decode(text_encode, shift_encode, True)
+        result = "has been executed operation encode with shift {}".format(shift_encode)
+        return render_template("index.html", result=result, text_decode=text_encoded, shift_decode=shift_encode)
+    elif request.form['form'] == 'Decode':
+        shift_decode = request.form['shift_decode']
+        text_decode = request.form['text_decode']
+
+        if not shift_decode or not text_decode:
+            result = "you should set text for decode also is shift letters in ABC"
+            return render_template("index.html", result=result)
+        text_decoded = encode_decode(text_decode, shift_decode, False)
+        result = "has been executed operation decode with shift {}".format(shift_decode)
+        return render_template("index.html", result=result, text_encode=text_decoded, shift_encode=shift_decode)
+    elif request.form['form'] == 'Hack':
+        text_decode = request.form['text_decode']
+
+        if not text_decode:
+            result = "you should set text for decode "
+            return render_template("index.html", result=result)
+
+        text_decoded = hack_caesar(text_decode)
+        result = "has been executed operation hacking "
+        return render_template("index.html", result=result, text_encode=text_decoded)
