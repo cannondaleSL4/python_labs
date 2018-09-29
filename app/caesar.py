@@ -1,5 +1,8 @@
 import re, os
 from collections import Counter
+from tkinter import Image
+import text_to_image
+
 
 
 """
@@ -36,7 +39,9 @@ def encode_decode(string, shift, boolean):
     return ''.join(ecoded_list)
 
 
-""" 4 - E; A - 0; R - 17 """
+"""
+ 4 - E; A - 0; R - 17 
+"""
 
 
 def hack_caesar(string_from_front):
@@ -86,9 +91,8 @@ def __get_the_best_variant(list_of_string_for_checking):
 def __get_list_of_popular(string_from_front):
     regex = re.compile('[^a-zA-Z]')
     list_of_letters_without_space = regex.sub('', string_from_front)
-    list_of_the_most_popular = []
-    list_of_the_most_popular.append(Counter(list_of_letters_without_space).most_common()[0][0])
-    list_of_the_most_popular.append(Counter(list_of_letters_without_space).most_common()[1][0])
+    list_of_the_most_popular = [Counter(list_of_letters_without_space).most_common()[0][0],
+                                Counter(list_of_letters_without_space).most_common()[1][0]]
     list_of_index = []
 
     for letter in list_of_the_most_popular:
@@ -101,7 +105,6 @@ def __get_list_of_popular(string_from_front):
 
 def __get_list_of_string():
     list = []
-    print(os.getcwd())
     try:
         with open('./static/words') as fp:
             line = fp.readline()
@@ -113,3 +116,8 @@ def __get_list_of_string():
     return list
 
 
+def append_filename(filename):
+    return "{0}_{2}.{1}".format(*filename.rsplit('.', 1) + ["for_encode"])
+
+
+def encode_text_to_picture(path_to_file, text):
