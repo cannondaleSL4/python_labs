@@ -120,4 +120,4 @@ def append_filename(filename):
     return "{0}_{2}.{1}".format(*filename.rsplit('.', 1) + ["for_encode"])
 
 
-def encode_text_to_picture(path_to_file, text):
+# def encode_text_to_picture(path_to_file, text):
