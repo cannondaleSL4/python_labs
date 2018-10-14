@@ -12,7 +12,7 @@
       <div class="card-deck mb-2 text-center">
 
         <div class="card mb-4 shadow-sm">
-          <form method="POST">
+          <form method="POST" enctype=multipart/form-data>
           <div class="card-header">
             <div class="row">
 
@@ -24,23 +24,16 @@
                 <a class="nav-link active" href="#">Decode</a>
               </li>
             </ul>
-
-               <div class="custom-file">
-                 <input type="file" class="custom-file-input" id="customFile">
-                 <label class="custom-file-label" for="customFile">Choose file</label>
-               </div>
+                <div class="custom-file">
+                   <input type="file" name="file" title="Search for a file to add">
+                </div>
             </div>
           </div>
-
           <div class="card-body">
             <div class="form-group">
-
             </div>
             <input type="submit" class="btn btn-lg btn-block btn-outline-primary" name="form" value="Decode file">
           </div>
-
-
-
           </form>
         </div>
 

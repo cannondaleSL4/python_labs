@@ -12,6 +12,7 @@ from app import app
 from .caesar import *
 from flask import render_template, request, flash, redirect
 
+UPLOAD_FOLDER = "./static/upload"
 
 @app.route('/')
 @app.route('/index')
@@ -72,7 +73,6 @@ def index_post():
 
 @app.route('/second_encode', methods=['POST'])
 def second_page_encode_post():
-    UPLOAD_FOLDER = "./static/new_photo"
     if request.form['form'] == 'Encode file':
         file = request.files['file']
 
@@ -109,7 +109,9 @@ def second_page_encode_post():
                                    shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
                                    active="btn btn-secondary my-2", result=result)
 
-        encode_text_to_picture(image, text_encode)
+            img_encoded = encode_text_to_picture(image, text_encode)
+
+
         result = "operation decode text to image was executed successfully"
 
     return render_template('secondLab.html', first_page="/index", second_page="",
@@ -121,7 +123,19 @@ def second_page_encode_post():
 def second_page_decode_post():
 
     if request.form['form'] == 'Decode file':
-        print("Encode file")
+        file = request.files['file']
+
+        if file.filename == '':
+            result = "File not has been chosen"
+            return render_template('secondLab.html', first_page="/index", second_page="",
+                                   shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
+                                   active="btn btn-secondary my-2", result=result)
+
+        filename = secure_filename(file.filename)
+        path_to_file = os.path.join(UPLOAD_FOLDER, filename)
+        image = PIL.Image.open(path_to_file)
+        decoded_text = decode_text_to_picture(image)
+        result = "operation decode text to image was executed successfully"
 
     return render_template('secondLab.html', first_page="/index", second_page="",
                            shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",

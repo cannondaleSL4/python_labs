@@ -5,8 +5,6 @@ from collections import Counter
 from tkinter import Image
 import text_to_image
 
-
-
 """
 random text from 
 http://www.randomtextgenerator.com/
@@ -119,11 +117,13 @@ def __get_list_of_string():
 
 
 def append_filename(filename):
-    return "{0}_{2}.{1}".format(*filename.rsplit('.', 1) + ["for_encode"])
+    return "{0}_{2}.{1}".format(*filename.rsplit('.', 1) + ["for_decode"])
 
 
 def encode_text_to_picture(file, text):
+    encoded = file.copy()
     width, height = file.size
+    text.encode("utf-8")
     length = len(text)
     index = 0
     for row in range(height):
@@ -137,5 +137,27 @@ def encode_text_to_picture(file, text):
                 asc = ord(c)
             else:
                 asc = r
-            file.putpixel((col, row), (asc, g, b))
+            encoded.putpixel((col, row), (asc, g, b))
             index += 1
+    return encoded
+
+
+
+def decode_text_to_picture(file):
+    width, height = file.size
+    msg = ""
+    index = 0
+    for row in range(height):
+        for col in range(width):
+            try:
+                r, g, b = file.getpixel((col, row))
+            except ValueError:
+                # need to add transparency a for some .png files
+                r, g, b, a = file.getpixel((col, row))
+            # first pixel r value is length of message
+            if row == 0 and col == 0:
+                length = r
+            elif index <= length:
+                msg += chr(r)
+            index += 1
+    return msg
