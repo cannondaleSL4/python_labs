@@ -1,5 +1,7 @@
 import re, os
 from collections import Counter
+
+
 from tkinter import Image
 import text_to_image
 
@@ -120,4 +122,20 @@ def append_filename(filename):
     return "{0}_{2}.{1}".format(*filename.rsplit('.', 1) + ["for_encode"])
 
 
-# def encode_text_to_picture(path_to_file, text):
+def encode_text_to_picture(file, text):
+    width, height = file.size
+    length = len(text)
+    index = 0
+    for row in range(height):
+        for col in range(width):
+            r, g, b = file.getpixel((col, row))
+            # first value is length of msg
+            if row == 0 and col == 0 and index < length:
+                asc = length
+            elif index <= length:
+                c = text[index - 1]
+                asc = ord(c)
+            else:
+                asc = r
+            file.putpixel((col, row), (asc, g, b))
+            index += 1

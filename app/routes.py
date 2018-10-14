@@ -1,4 +1,10 @@
-from tkinter import Image
+# from PIL import Image
+
+import PIL.Image
+
+
+
+# from tkinter import Image
 
 from werkzeug.utils import secure_filename
 
@@ -83,16 +89,32 @@ def second_page_encode_post():
                                    active="btn btn-secondary my-2", result=result)
 
         text_encode = request.form['text_encode']
-        text_to_byte = bytearray(text_encode, 'utf8')
+
+        if len(text_encode) > 255:
+            result = "text too long! (don't exceed 255 characters)"
+            return render_template('secondLab.html', first_page="/index", second_page="",
+                                   shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
+                                   active="btn btn-secondary my-2", result=result)
+
         filename = secure_filename(file.filename)
         path_to_new_file = os.path.join(UPLOAD_FOLDER, append_filename(filename))
         file.save(path_to_new_file)
-        encode_text_to_picture(path_to_new_file, text_encode)
+
+        image = PIL.Image.open(path_to_new_file)
+        image = image.convert('RGB')
+
+        if image.mode != 'RGB':
+            result = "image mode needs to be RGB"
+            return render_template('secondLab.html', first_page="/index", second_page="",
+                                   shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
+                                   active="btn btn-secondary my-2", result=result)
+
+        encode_text_to_picture(image, text_encode)
         result = "operation decode text to image was executed successfully"
 
     return render_template('secondLab.html', first_page="/index", second_page="",
                            shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
-                           active="btn btn-secondary my-2",result=result)
+                           active="btn btn-secondary my-2", result=result)
 
 
 @app.route('/second_decode', methods=['POST'])
