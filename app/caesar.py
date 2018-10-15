@@ -123,7 +123,6 @@ def append_filename(filename):
 def encode_text_to_picture(file, text):
     encoded = file.copy()
     width, height = file.size
-    text.encode("utf-8")
     length = len(text)
     index = 0
     for row in range(height):

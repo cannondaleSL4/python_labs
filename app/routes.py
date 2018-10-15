@@ -74,9 +74,9 @@ def index_post():
 @app.route('/second_encode', methods=['POST'])
 def second_page_encode_post():
     if request.form['form'] == 'Encode file':
-        file = request.files['file']
+        upload_file = request.files['file']
 
-        if file.filename == '':
+        if upload_file.filename == '':
             result = "File not has been chosen"
             return render_template('secondLab.html', first_page="/index", second_page="",
                                    shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
@@ -96,9 +96,10 @@ def second_page_encode_post():
                                    shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
                                    active="btn btn-secondary my-2", result=result)
 
-        filename = secure_filename(file.filename)
-        path_to_new_file = os.path.join(UPLOAD_FOLDER, append_filename(filename))
-        file.save(path_to_new_file)
+        filename = secure_filename(upload_file.filename)
+        # path_to_new_file = os.path.join(UPLOAD_FOLDER, append_filename(filename))
+        path_to_new_file = os.path.join(UPLOAD_FOLDER, filename)
+        upload_file.save(path_to_new_file)
 
         image = PIL.Image.open(path_to_new_file)
         image = image.convert('RGB')
@@ -109,8 +110,9 @@ def second_page_encode_post():
                                    shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
                                    active="btn btn-secondary my-2", result=result)
 
-            img_encoded = encode_text_to_picture(image, text_encode)
-
+        img_encoded = encode_text_to_picture(image, text_encode)
+        os.remove(path_to_new_file)
+        img_encoded.save(path_to_new_file)
 
         result = "operation decode text to image was executed successfully"
 
@@ -134,9 +136,10 @@ def second_page_decode_post():
         filename = secure_filename(file.filename)
         path_to_file = os.path.join(UPLOAD_FOLDER, filename)
         image = PIL.Image.open(path_to_file)
+        image = image.convert('RGB')
         decoded_text = decode_text_to_picture(image)
         result = "operation decode text to image was executed successfully"
 
-    return render_template('secondLab.html', first_page="/index", second_page="",
+    return render_template('secondLab_decode.html', first_page="/index", second_page="",
                            shift_encode=1, shift_decode=1, not_active="btn btn-primary my-2",
-                           active="btn btn-secondary my-2")
+                           active="btn btn-secondary my-2", text_decode=decoded_text, result=result)
