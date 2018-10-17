@@ -2,8 +2,6 @@ import re, os
 from collections import Counter
 
 
-from tkinter import Image
-import text_to_image
 
 """
 random text from 
