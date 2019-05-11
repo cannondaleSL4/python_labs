@@ -8,6 +8,7 @@ for correct using that program you should set value for variable  *shift*. Shift
 ## Run application
 
 for running that application should run:
+`virtualenv flask`
 `export FLASK_APP=caesar-algorithm.py` - for unix like system
 `set FLASK_APP=caesar-algorithm.py` - for windows
 
